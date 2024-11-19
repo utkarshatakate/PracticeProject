@@ -26,7 +26,7 @@
            </div>
            <div class="right-panel mt-4">
               <button type="button" class="btn-black">Login</button>
-              <button type="button" class="btn-black">Sign Up</button>
+              <button type="button" class="btn-black" id="signUp">Sign Up</button>
            </div>
      </div>
 
@@ -233,6 +233,10 @@
 
     </div>
   
-   
+    <script>
+        document.getElementById("signUp").addEventListener("click", function () {
+            window.location.href = "SignUp.html"; // Replace with your page's URL
+        });
+    </script>
 </body>
 </html>

@@ -179,3 +179,14 @@ padding-left: 4rem;
 margin-left: 153px;
 margin-top: -19px;
 }
+.signdiv{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.btn-sign{position: absolute;
+margin-top: 166px;
+width: 21rem;
+font-weight: 600;
+height: 2.5rem;
+}
