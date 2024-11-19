@@ -1,0 +1,181 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #f5f4f4;
+    
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --comman-padding:0vh 7vw;
+    --comman-color: #edeaea;
+}
+.comman-padding{
+    padding:var(--comman-padding);
+  
+}
+.comm-color{
+    background-color:#edeaea;
+}
+.left-panel{
+    display: flex;
+}
+.header{
+    display: flex;
+    padding: var(--comman-padding);
+    justify-content: space-between;
+}
+.btn-black{
+    background-color: black;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+.mid-label{
+font-size: 68px;
+position: relative;
+}
+.mid-label-b{
+    font-size: 68px;
+    position: relative;
+    margin-left: 18px;
+    font-weight: 600;
+}
+.btn-green{
+    background-color: #C2F578 !important;
+    width: 10vw;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+.mid-left{
+  width:50%;
+}
+.mid-right{
+    position: relative;
+}
+.top-margin
+{
+    margin-top: 25vh;
+}
+.img-div{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.para{
+   margin-top: 10vh;
+
+}
+.para1{
+    font-size: 16px;
+}
+.image{
+    background: rgb(194,245,120);
+    background: radial-gradient(
+        circle,
+        #C2F578 0%,
+        rgba(148,187,233,0) 70%
+    );
+    position: relative;
+}
+.over-img1{
+   border-radius: 50%;
+  
+}
+.over-img{
+position: absolute;
+margin-top: 94px;
+}
+.comm-div{
+    background-color: #e9e5e5;
+    width: 20vw;
+    height: 35vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 0.5rem;
+    position: relative;
+    flex-direction: column;
+} 
+.comm-para{
+font-weight:600;
+font-size:20px;
+Line-height:24.2px;
+align-items:Center;
+background: none;
+}
+.comm-btn{
+    margin-top: 1rem;
+}
+.img2{
+    background-color: #e9e5e5
+}
+.head{
+    font-size: 36px;
+    font-weight: 700;
+    
+}
+.img3{
+    border-radius: 50%;
+    margin-right: 1vw;
+}
+.comm-p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #545454;
+}
+.comm-top{margin-top: 3vh;}
+.font-bold{
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+.font-para{
+    font-weight: 600;
+}
+.font-colo{
+    color: #545454;
+}
+.ipnt{
+    padding: 0.5rem 9rem;
+    border-radius: 0.5rem;
+    position: relative;
+    background-color: white;
+}
+.btn1{
+position: absolute;
+margin-left: -9rem;
+margin-top: 1.5rem;
+}
+
+.mid-left1 {
+    display: flex;
+    width: 50%; /* Set the width of the parent container */
+}
+
+.mid-left2,
+.mid-right2 {
+    width: 50%; /* Divide 50% into two equal parts */
+    text-align: center; /* Optional: Center-align text inside */
+    flex-direction: column;
+}
+.comm-lab{
+    text-align: left;
+    padding-left: 2rem;
+}
+.comm-lab2{
+padding-left: 4rem;
+}
+.under{position: absolute;
+margin-left: 153px;
+margin-top: -19px;
+}
