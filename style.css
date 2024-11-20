@@ -185,8 +185,16 @@ align-items: center;
 justify-content: center;
 }
 .btn-sign{position: absolute;
-margin-top: 166px;
+margin-top: 230px;
 width: 21rem;
 font-weight: 600;
 height: 2.5rem;
+}
+
+.btn-login {
+    position: absolute;
+    margin-top: 90px;
+    width: 21rem;
+    font-weight: 600;
+    height: 2.5rem;
 }
