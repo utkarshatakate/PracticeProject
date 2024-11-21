@@ -146,10 +146,11 @@ background: none;
     color: #545454;
 }
 .ipnt{
-    padding: 0.5rem 9rem;
+    padding: 0.5rem 0rem;
     border-radius: 0.5rem;
     position: relative;
     background-color: white;
+    width: 70%;
 }
 .btn1{
 position: absolute;
